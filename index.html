@@ -9,11 +9,29 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <link rel="stylesheet " href="style.css">
+    <title>SaRAI</title>
+    <style>
+        .body{
+            background-color: rgb(255, 54, 188);
 
-    <title>Hello, world!</title>
+        }
+        .container{
+            display: block;
+            margin-left: 12cm;
+            margin-top: 5cm;
+          
+        }
+        .btn_join{
+                
+                display: block;
+                margin: auto;
+                margin-top: 0.5cm;
+        }
+    </style>
 </head>
 
-<body>
+<body >
  
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">SaRAI</a>
@@ -47,12 +65,17 @@
             
         </div>
     </nav>
-      <div class="buton-grid">
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control " type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-      </div>
+    <div class="container" >
+        <div class="row justify-content-md-center">
+          <div class="col col-lg-2">
+            <button type="submit" class="btn btn-dark">Create Meeting </button>
+          </div>
+          <div class="col-md-auto">
+            <form class="d-flex">
+                <input class="form-control me2" type="search" placeholder="Search">
+                <button class = "btn_join btn-outline-info "type="submit"  >Join </button>
+            </form>
+          </div>
     
 
     <!-- Optional JavaScript -->
